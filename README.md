@@ -44,3 +44,9 @@ logs are included.
 - Flag source IPs that hit many distinct rule IDs (likely a scanner).
 - Separate "high-confidence attack" from "likely false positive" by parameter.
 - Export to CSV for a ticket attachment.
+
+## More notes
+
+- [CDN migration: Akamai to Cloudflare and AWS CloudFront](docs/cdn-migration.md)
+- [Troubleshooting 403 and 502 through CDN, WAF and origin](docs/troubleshooting-403-502.md)
+- [WAF false-positive tuning](docs/false-positive-tuning.md)
