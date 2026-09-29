@@ -15,8 +15,8 @@ Input format (one JSON object per line), e.g.:
      "status": 403}
 
 Usage:
-    python3 waf_log_analyzer.py sample-logs/sample_waf.log
-    python3 waf_log_analyzer.py sample-logs/sample_waf.log --top 10 --json
+    python3 waf_log_analyzer.py sample_waf.log
+    python3 waf_log_analyzer.py sample_waf.log --top 10 --json
 
 Only synthetic sample data is included in this repo. No production or client logs.
 """
