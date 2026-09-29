@@ -11,13 +11,13 @@ the few things worth investigating.
 ## Run it
 
 ```bash
-python3 waf_log_analyzer.py sample-logs/sample_waf.log
+python3 waf_log_analyzer.py sample_waf.log
 ```
 
 Options:
 ```bash
-python3 waf_log_analyzer.py sample-logs/sample_waf.log --top 10   # more rows per section
-python3 waf_log_analyzer.py sample-logs/sample_waf.log --json     # machine-readable output
+python3 waf_log_analyzer.py sample_waf.log --top 10   # more rows per section
+python3 waf_log_analyzer.py sample_waf.log --json     # machine-readable output
 ```
 
 ## Input format
@@ -33,7 +33,7 @@ are messy.
 
 ## Sample data
 
-`sample-logs/sample_waf.log` is **synthetic**. All source IPs are from the
+`sample_waf.log` is **synthetic**. All source IPs are from the
 RFC 5737 documentation ranges (203.0.113.0/24, 198.51.100.0/24, 192.0.2.0/24),
 which are reserved for examples and are not real hosts. No production or client
 logs are included.
